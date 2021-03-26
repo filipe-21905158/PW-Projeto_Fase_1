@@ -1,0 +1,210 @@
+/*formatacao geral do site*/
+
+*{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgba(78, 78, 78, 0);
+    
+}
+
+html{
+    background-image: url(images/Main_Image.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2a2e2a
+    
+}
+.grid{
+    backdrop-filter: blur(2px);
+}
+
+td{
+    padding-left: 10px;
+
+}
+
+table{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*Formatacao de imagens*/
+
+.WordCloud{
+    margin-top: 5%;
+    margin-left: 30%;
+    border-radius: 0.25cm;
+}
+
+
+
+/*Formatacao de tabelas*/
+
+.table_right_img_div{
+    border-radius: 50%;
+    margin-left: 50%;
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    
+}
+
+.Texto_Apresentacao > a {
+    text-align: center;
+    color: white;
+    position:absolute;
+    font-size: medium;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.table_right_img_div > img{
+    border-radius: 50%;
+    filter: brightness(0.25);
+}
+
+
+.table_left_img_div{
+    border-radius: 50%;
+    margin-left: 50%;
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    
+}
+
+.Texto_Apresentacao {
+    text-align: center;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.table_left_img_div > img{
+    border-radius: 50%;
+    filter: brightness(0.25);
+}
+
+tr > .Titulo{
+    background-color: rgba(128, 128, 128, 0.521);
+    color: whitesmoke;
+    font-size: x-large;
+    border-radius: 0.25cm;
+}
+
+tr > .Resumo{
+    background-color: rgba(128, 128, 128, 0.521);
+    color: whitesmoke;
+    font-size: medium;
+    border-radius: 0.25cm;
+}
+
+
+.right{
+    background-color: grey;
+    margin-right: 700px;
+    margin-left: 50px;
+    border-left-width: 1cm;
+    font-size: small;
+    border-radius: 0.5cm;
+}
+
+.div1{
+    margin-top: 30%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: rgb(214, 214, 214)
+}
+.div2 > a{
+    
+    margin-top: 33%;
+    position: absolute;
+    top: 63%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    transition: 2s;
+    color: rgb(245, 227, 227);
+
+}
+.div3 > a{
+    margin-top: 33%;
+    position: absolute;
+    top: 63%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    transition: 2s;
+    color: whitesmoke;
+}
+
+.button_main_menu{
+    background-color: gray;
+    font-size: medium;
+    margin-left: 10px;
+    color: whitesmoke;
+    border-radius: 0.3cm;
+    outline: none;
+    transition: 2s;
+}
+
+.menu_Table{
+    background-color: transparent;
+    color:rgb(158, 157, 157);
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Operacoes feitas quando o cursor passa por cima do elemento*/
+.div2 > a:hover{
+    /*quando se passa o cursor por cima do texto este aumenta*/
+    font-size: 40px;
+    
+}
+
+.div3 > a:hover{
+    /*quando se passa o cursor por cima do texto este aumenta*/
+    font-size: 40px;
+    
+}
+.button_main_menu:hover{
+    font-size: small;
+}
+
+.menu_Table:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+/*Operacoes feitas quando o link ja foi utilizado*/
+.div2 > a:active{
+    /* escurecer a cor do texto */
+    color: grey;
+}
+.div3> a:active{
+    /* escurecer a cor do texto */
+    color: grey;
+}
+
+/*Quando a pagina em questao ja foi visitada*/
+.div2 > a:visited{
+    color: lavenderblush;
+}
+.div3 > a:visited{
+    color: lavenderblush;
+}
+
+/*Quando a pagina em questao ainda nao foi visitada*/
+.div2 > a:link{
+    color: lavenderblush;
+}
+.div3 > a:link{
+    color: lavenderblush;
+}
