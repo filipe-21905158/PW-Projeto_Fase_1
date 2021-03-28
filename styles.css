@@ -74,7 +74,9 @@ table{
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: rgba(221, 221, 221, 0);}
+  .dropdown-content a:hover {
+      background-color: rgba(221, 221, 221, 0);
+    }
   
   .Menu_Drop_Down:hover .dropdown-content {display: block;}
   
