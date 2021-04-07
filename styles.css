@@ -16,7 +16,9 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2a2e2a
+    background-color: #2a2e2a;
+    background-attachment:fixed;
+    
     
 }
 .grid{
