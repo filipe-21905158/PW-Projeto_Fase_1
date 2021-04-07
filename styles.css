@@ -65,6 +65,10 @@ footer > img:hover{
     height: 9%;
 }
 
+footer > img{
+    border-radius: 0.25cm;
+}
+
 
 /*Formatacao de menu*/
 
