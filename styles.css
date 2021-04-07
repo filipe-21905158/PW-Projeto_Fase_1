@@ -58,6 +58,14 @@ aside > i{
     border-radius: 0.25cm;
 }
 
+
+footer > img:hover{
+    z-index: 1;
+    width: 9%;
+    height: 9%;
+}
+
+
 /*Formatacao de menu*/
 
 .dropbtn {
