@@ -133,6 +133,29 @@ footer > img{
     
 }
 
+.Tabela_Inventario{
+    text-align: center;
+    border-spacing: 5px;
+    border-radius: 0.25%;
+    border: 2px solid #ddd;
+    border-collapse: collapse;
+    margin-left: 7%;
+    margin-top: 5%;
+
+}
+
+th{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ td{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: medium;
+}
+/****************************************/
+
 .Texto_Apresentacao > a {
     text-align: center;
     color: white;
