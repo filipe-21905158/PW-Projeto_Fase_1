@@ -70,6 +70,13 @@ footer > img{
 }
 
 
+.Center_Image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /*Formatacao de menu*/
 
 .dropbtn {
