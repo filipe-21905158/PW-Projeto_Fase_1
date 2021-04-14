@@ -29,10 +29,7 @@ td{
 
 }
 
-table{
-    margin-left: 5%;
-    margin-right: 5%;
-}
+
 
 footer{
     font-size: small;
@@ -131,6 +128,11 @@ footer > img{
 
 /*Formatacao de tabelas*/
 
+table{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .table_right_img_div{
     border-radius: 50%;
     margin-left: 50%;
@@ -181,6 +183,27 @@ th{
 .table_right_img_div > img{
     border-radius: 50%;
     filter: brightness(0.25);
+}
+
+form{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.form_size > textarea{
+    font-size: medium;
+    background-color: rgba(177, 176, 176, 0.63);
+    border-radius:0.15cm;
+}
+
+.form_size > label{
+    font-size: medium;
+}
+
+.form_size > input{
+    font-size: medium;
+    background-color: rgba(177, 176, 176, 0.63);
+    border-radius:0.15cm;
 }
 
 
