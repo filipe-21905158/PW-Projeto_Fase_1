@@ -73,6 +73,10 @@ footer > img{
     margin-right: auto;
 }
 
+.Book_Image:hover{
+    filter: contrast(20%);
+}
+
 
 /*Formatacao de menu*/
 
