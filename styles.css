@@ -210,6 +210,12 @@ form{
     border-radius:0.15cm;
 }
 
+fieldset{
+    font-size: medium;
+    
+    border-radius:0.15cm;
+}
+
 
 .table_left_img_div{
     border-radius: 50%;

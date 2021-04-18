@@ -77,8 +77,8 @@
                     </tr>
 
                     <tr>
+                        <td>Efeitos</td>
                         <td></td>
-                        <td>Foram feitas animações usando keyframes que permite …</td>
                         <td></td>
                     </tr>
 
@@ -137,13 +137,27 @@
             <br>
             <br>
             <br>
-            <form action="/action_page.php" class="form_size" >
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" value="Nome"><br><br>
+            <form method="post"  action="mailto:nome.apelido@gmail.com" class="form_size" >
+
+                <fieldset>
+                    <label for="fname">Nome:</label><br>
+                <input type="text" id="fname" value="Nome"><br>
+
+                <label for="fname">Apelido:</label><br>
+                <input type="text" id="fname" value="Apelido"><br>
+
+                <label for="fname">Email:</label><br>
+                <input type="text" id="fname" value="xxxxx@gmail.com"><br>
+
+                <label for="fname">Categoria:</label><br>
+                <input type="text" id="fname" value="Categoria Favorita"><br><br>
+
                 <label for="fname">Comentários:</label><br>
                 <textarea name="message" rows="5" cols="30">Comentarios</textarea>
                 <br>
                 <input type="submit" value="Submit">
+                </fieldset>
+                
 
             </form>
             <br>
