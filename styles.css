@@ -307,7 +307,7 @@ tr > .Resumo{
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+    font-size: xx-large;
     color: rgb(214, 214, 214)
 }
 .div2 > a{
@@ -317,7 +317,7 @@ tr > .Resumo{
     top: 63%;
     left: 44%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: x-large;
     transition: 2s;
     color: rgb(245, 227, 227);
 
@@ -328,7 +328,7 @@ tr > .Resumo{
     top: 63%;
     left: 56%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: x-large;
     transition: 2s;
     color: whitesmoke;
 }
