@@ -303,7 +303,7 @@ tr > .Resumo{
 
 .div1{
     margin-top: 30%;
-    position: relative;
+    position:fixed;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -313,7 +313,7 @@ tr > .Resumo{
 .div2 > a{
     
     margin-top: 33%;
-    position: relative;
+    position:fixed;
     top: 63%;
     left: 44%;
     transform: translate(-50%, -50%);
@@ -324,7 +324,7 @@ tr > .Resumo{
 }
 .div3 > a{
     margin-top: 33%;
-    position: relative;
+    position: fixed;
     top: 63%;
     left: 56%;
     transform: translate(-50%, -50%);
