@@ -210,9 +210,9 @@ form{
     border-radius:0.15cm;
 }
 
-fieldset{
-    font-size: medium;
-    
+fieldset {
+    font-size: small;
+    background-color: rgba(177, 176, 176, 0.63);
     border-radius:0.15cm;
 }
 
