@@ -47,6 +47,16 @@ aside > i{
     box-shadow: rgba(245, 245, 245, 0);
 }
 
+aside:hover{
+    position: relative;
+    animation: mymove 3s ;
+}
+
+@keyframes mymove {
+    from {bottom: 0px;}
+    to {bottom: 10px;}
+  }
+
 /*Formatacao de imagens*/
 
 .WordCloud{
