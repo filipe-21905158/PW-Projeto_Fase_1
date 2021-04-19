@@ -316,7 +316,7 @@ tr > .Resumo{
 /*Formatacao pag principal*/
 
 .dropSepher {
-    position: static;
+    position: fixed;
     margin-top: 30%;
     margin-left: 45%;
     border-radius: 0.25cm;
@@ -327,15 +327,14 @@ tr > .Resumo{
 }
 
 .Main_Menu_Drop_Down{
-    position: inherit;
+    position: fixed;
     display: inline-block;
 }
 
 
-  
-  .main_dropdown-content {
+.main_dropdown-content {
     display: none;
-    position: inherit;
+    position: fixed;
     margin-top: 33%;
     margin-left: 45%;
     background-color: #f1f1f157;
@@ -344,7 +343,7 @@ tr > .Resumo{
     box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0);
     border-radius: 0.25cm;
     z-index: 1;
-  }
+}
   
   .main_dropdown-content a {
     color: black;
