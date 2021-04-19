@@ -316,7 +316,7 @@ tr > .Resumo{
 /*Formatacao pag principal*/
 
 .dropSepher {
-    position: fixed;
+    position: static;
     margin-top: 30%;
     margin-left: 45%;
     border-radius: 0.25cm;
@@ -327,7 +327,7 @@ tr > .Resumo{
 }
 
 .Main_Menu_Drop_Down{
-    position: fixed;
+    position: inherit;
     display: inline-block;
 }
 
@@ -335,7 +335,7 @@ tr > .Resumo{
   
   .main_dropdown-content {
     display: none;
-    position: fixed;
+    position: inherit;
     margin-top: 33%;
     margin-left: 45%;
     background-color: #f1f1f157;
