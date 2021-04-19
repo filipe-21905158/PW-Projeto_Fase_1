@@ -175,6 +175,44 @@ th{
 }
 /****************************************/
 
+/*Formatacao tabela comentarios*/
+
+.form_size{
+
+    width: 30%;
+}
+
+.form_size > fieldset > p > label{
+
+    font-size: medium;
+}
+
+.form_size > fieldset > p > input{
+
+    font-size: medium;
+}
+
+.form_size > fieldset > p > select{
+    font-size: medium;
+}
+
+.form_size > fieldset > p > textarea{
+
+    font-size: medium;
+}
+
+.form_size > fieldset > p > select > option{
+
+    font-size: medium;
+}
+
+.form_size > fieldset > input{
+    font-size: medium;
+}
+
+
+/*******************************/
+
 .Texto_Apresentacao > a {
     text-align: center;
     color: white;
